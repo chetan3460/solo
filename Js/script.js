@@ -1,7 +1,9 @@
-/*================================
-        Preloader JS
-=================================*/
-$(window).on('load',function(){ 
+/* =========================================
+                Preloader
+============================================ */
+$(window).on('load', function () { // makes sure that whole site is loaded
     $('#status').fadeOut();
-    $('#preloder').delay(350).fadeOut();
+    $('#preloader').delay(350).fadeOut('slow');
 });
+
+
