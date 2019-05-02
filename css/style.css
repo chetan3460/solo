@@ -1,4 +1,4 @@
-/* =========================================
+                /* =========================================
     Default Theme
     ----------------------------------------
     Fonts: Raleway & Open Sans
@@ -10,9 +10,7 @@
         White:               #fff
         Black:               #000   
 ============================================ */
-
-
-/* =========================================
+                /* =========================================
                 Html, Body
 ============================================ */
 
@@ -46,9 +44,8 @@ section {
     overflow: hidden;
 }
 
-
 /* =========================================
-                Preloader
+Preloader
 ============================================ */
 
 #preloader {
@@ -73,9 +70,8 @@ section {
     margin-left: -35px;
 }
 
-
 /* =========================================
-                Home
+Home
 ============================================ */
 
 #home {
@@ -140,9 +136,8 @@ section {
     margin: 8px 0 30px 0;
 }
 
-
 /* =========================================
-                Buttons
+Buttons
 ============================================ */
 
 .btn-general {
@@ -168,11 +163,22 @@ section {
     border: 1px solid #f4c613;
 }
 
+.btn-yellow {
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: #f4c613;
+}
+
+.btn-yellow:hover,
+.btn-yellow:focus {
+    color: #fff;
+    background-color: #212226;
+    border: 1px solid #212226;
+}
 
 /* =========================================
-                Arrow Down
+Arrow Down
 ============================================ */
-
 #arrow-down {
     position: absolute;
     left: 50%;
@@ -191,11 +197,9 @@ section {
     color: #f4c613;
 }
 
-
 /* =========================================
-                Content Boxes
+Content Boxes
 ============================================ */
-
 .content-box-lg {
     padding: 120px 0;
 }
@@ -204,11 +208,9 @@ section {
     padding: 100px 0;
 }
 
-
 /* =========================================
-            Vertical / Horizontal Heading
+Vertical / Horizontal Heading
 ============================================ */
-
 .vertical-heading h5 {
     color: #f4c613;
     font-size: 14px;
@@ -253,11 +255,9 @@ section {
     margin: 0;
 }
 
-
 /* =========================================
-                About 01
+About 01
 ============================================ */
-
 .about-right p:first-child {
     margin-bottom: 30px;
 }
@@ -270,11 +270,9 @@ section {
     margin: 0 auto;
 }
 
-
 /* =========================================
-                About 02
+About 02
 ============================================ */
-
 #about-02 {
     background-color: #f4f4f4;
 }
@@ -307,9 +305,7 @@ section {
     margin-top: 20px;
 }
 
-
 /* Hover State*/
-
 .about-item:hover {
     background-color: #f4c613;
 }
@@ -332,9 +328,7 @@ section {
     -o-transform: translateY(-20px);
 }
 
-
 /* Smooth Transition */
-
 .about-item,
 .about-item i,
 .about-item hr {
@@ -345,9 +339,7 @@ section {
     -o-transition: all 400ms ease-in-out;
 }
 
-
 /* Team */
-
 #team-left .vertical-heading {
     min-height: 160px;
 }
@@ -393,9 +385,7 @@ section {
     opacity: 1;
 }
 
-
 /* Social Icons */
-
 ul.social-list {
     padding: 0;
     margin-top: 20px;
@@ -436,9 +426,7 @@ ul.social-list li:nth-child(3) a:hover {
     border-color: transparent;
 }
 
-
 /* Slider Button */
-
 .owl-theme .owl-nav [class*=owl-] {
     color: #212226;
     font-size: 40px;
@@ -451,9 +439,7 @@ ul.social-list li:nth-child(3) a:hover {
     color: #212226;
 }
 
-
 /* Skills */
-
 .skill {
     margin-bottom: 20px;
 }
@@ -497,9 +483,7 @@ ul.social-list li:nth-child(3) a:hover {
     left: 23%;
 }
 
-
 /* Statement */
-
 #statement {
     background: url(../img/tech/tech-statement.jpg) no-repeat fixed center;
     background-size: cover;
@@ -522,9 +506,7 @@ ul.social-list li:nth-child(3) a:hover {
     margin-top: 8px;
 }
 
-
 /* Services 01 */
-
 #services-01 img {
     margin: 60px 0;
 }
@@ -570,4 +552,72 @@ ul.social-list li:nth-child(3) a:hover {
 
 .service p {
     line-height: normal;
+}
+
+/* Service 02 Responsive Tabs */
+#services-02 {
+    background: #f4f4f4;
+}
+
+#services-tabs ul {
+    margin-bottom: 40px;
+}
+
+#services-tabs ul li {
+    padding: 5px 30px;
+}
+
+#services-tabs ul li a {
+    font-family: "Raleway", sans-serif;
+    font-size: 13px;
+    color: #212226;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 0;
+    text-decoration: none;
+}
+
+/* Tab active state */
+#services-tabs ul li.r-tabs-state-active a {
+    color: #f4c613;
+    font-weight: 700;
+    border-bottom: 3px solid #f4c613;
+    padding-bottom: 5px;
+    transition: border-color 300ms linear;
+    -webkit-transition: border-color 300ms linear;
+    -moz-transition: border-color 300ms linear;
+    -ms-transition: border-color 300ms linear;
+    -o-transition: border-color 300ms linear;
+}
+
+.service-tab .col-md-6 {
+    padding: 0;
+}
+
+.service-tab img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.service-tab .tab-bg {
+    background: #fff;
+    padding: 59px 30px;
+    min-height: 481px;
+}
+
+.service-tab h2 {
+    font-size: 48px;
+    color: #bbb;
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+
+.service-tab h3 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.service-tab p {
+    line-height: 24px;
+    margin-bottom: 30px;
 }

@@ -21,7 +21,9 @@ $(function() {
 
     });
 });
+
 // Progress Bar
+
 $(function() {
     $("#progress-elements").waypoint(function() {
 
@@ -35,4 +37,14 @@ $(function() {
     }, {
         offset: 'bottom-in-view'
     });
+});
+
+// Service 02 Responsive Tabs
+
+$(function() {
+
+    $("#services-tabs").responsiveTabs({
+        animation: 'slide'
+    });
+
 });
